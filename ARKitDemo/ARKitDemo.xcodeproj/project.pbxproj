@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA37FA7B205927CB00E431E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37FA7A205927CB00E431E5 /* AppDelegate.m */; };
+		BA37FA7E205927CB00E431E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37FA7D205927CB00E431E5 /* ViewController.m */; };
+		BA37FA81205927CB00E431E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA37FA7F205927CB00E431E5 /* Main.storyboard */; };
+		BA37FA83205927CB00E431E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA37FA82205927CB00E431E5 /* Assets.xcassets */; };
+		BA37FA86205927CB00E431E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA37FA84205927CB00E431E5 /* LaunchScreen.storyboard */; };
+		BA37FA89205927CB00E431E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37FA88205927CB00E431E5 /* main.m */; };
+		BA37FA93205927CB00E431E5 /* ARKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37FA92205927CB00E431E5 /* ARKitDemoTests.m */; };
+		BA37FA9E205927CB00E431E5 /* ARKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37FA9D205927CB00E431E5 /* ARKitDemoUITests.m */; };
+		BA37FAAD2059280D00E431E5 /* ModelDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37FAAB2059280D00E431E5 /* ModelDisplayViewController.m */; };
+		BA37FAB62059283900E431E5 /* snowflake1.png in Resources */ = {isa = PBXBuildFile; fileRef = BA37FAB02059283800E431E5 /* snowflake1.png */; };
+		BA37FAB72059283900E431E5 /* wolf.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BA37FAB12059283800E431E5 /* wolf.scnassets */; };
+		BA37FAB82059283900E431E5 /* productLine.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BA37FAB22059283800E431E5 /* productLine.scnassets */; };
+		BA37FAB92059283900E431E5 /* Snow.scnp in Resources */ = {isa = PBXBuildFile; fileRef = BA37FAB32059283900E431E5 /* Snow.scnp */; };
+		BA37FABA2059283900E431E5 /* snowflow.png in Resources */ = {isa = PBXBuildFile; fileRef = BA37FAB42059283900E431E5 /* snowflow.png */; };
+		BA37FABB2059283900E431E5 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BA37FAB52059283900E431E5 /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA37FA8F205927CB00E431E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA37FA6E205927CB00E431E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA37FA75205927CB00E431E5;
+			remoteInfo = ARKitDemo;
+		};
+		BA37FA9A205927CB00E431E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA37FA6E205927CB00E431E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA37FA75205927CB00E431E5;
+			remoteInfo = ARKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA37FA76205927CB00E431E5 /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37FA79205927CB00E431E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA37FA7A205927CB00E431E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA37FA7C205927CB00E431E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA37FA7D205927CB00E431E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA37FA80205927CB00E431E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA37FA82205927CB00E431E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA37FA85205927CB00E431E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA37FA87205927CB00E431E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37FA88205927CB00E431E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA37FA8E205927CB00E431E5 /* ARKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37FA92205927CB00E431E5 /* ARKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARKitDemoTests.m; sourceTree = "<group>"; };
+		BA37FA94205927CB00E431E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37FA99205927CB00E431E5 /* ARKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37FA9D205927CB00E431E5 /* ARKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARKitDemoUITests.m; sourceTree = "<group>"; };
+		BA37FA9F205927CB00E431E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37FAAB2059280D00E431E5 /* ModelDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelDisplayViewController.m; path = 3DModelDisplay/ModelDisplayViewController.m; sourceTree = "<group>"; };
+		BA37FAAC2059280D00E431E5 /* ModelDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDisplayViewController.h; path = 3DModelDisplay/ModelDisplayViewController.h; sourceTree = "<group>"; };
+		BA37FAB02059283800E431E5 /* snowflake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snowflake1.png; path = Resources/snowflake1.png; sourceTree = "<group>"; };
+		BA37FAB12059283800E431E5 /* wolf.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = wolf.scnassets; path = Resources/wolf.scnassets; sourceTree = "<group>"; };
+		BA37FAB22059283800E431E5 /* productLine.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = productLine.scnassets; path = Resources/productLine.scnassets; sourceTree = "<group>"; };
+		BA37FAB32059283900E431E5 /* Snow.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = Snow.scnp; path = Resources/Snow.scnp; sourceTree = "<group>"; };
+		BA37FAB42059283900E431E5 /* snowflow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snowflow.png; path = Resources/snowflow.png; sourceTree = "<group>"; };
+		BA37FAB52059283900E431E5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = Resources/spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA37FA73205927CB00E431E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37FA8B205927CB00E431E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37FA96205927CB00E431E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA37FA6D205927CB00E431E5 = {
+			isa = PBXGroup;
+			children = (
+				BA37FA78205927CB00E431E5 /* ARKitDemo */,
+				BA37FA91205927CB00E431E5 /* ARKitDemoTests */,
+				BA37FA9C205927CB00E431E5 /* ARKitDemoUITests */,
+				BA37FA77205927CB00E431E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA37FA77205927CB00E431E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA37FA76205927CB00E431E5 /* ARKitDemo.app */,
+				BA37FA8E205927CB00E431E5 /* ARKitDemoTests.xctest */,
+				BA37FA99205927CB00E431E5 /* ARKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA37FA78205927CB00E431E5 /* ARKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA37FAB22059283800E431E5 /* productLine.scnassets */,
+				BA37FAB32059283900E431E5 /* Snow.scnp */,
+				BA37FAB02059283800E431E5 /* snowflake1.png */,
+				BA37FAB42059283900E431E5 /* snowflow.png */,
+				BA37FAB52059283900E431E5 /* spark.png */,
+				BA37FAB12059283800E431E5 /* wolf.scnassets */,
+				BA37FAAC2059280D00E431E5 /* ModelDisplayViewController.h */,
+				BA37FAAB2059280D00E431E5 /* ModelDisplayViewController.m */,
+				BA37FA79205927CB00E431E5 /* AppDelegate.h */,
+				BA37FA7A205927CB00E431E5 /* AppDelegate.m */,
+				BA37FA7C205927CB00E431E5 /* ViewController.h */,
+				BA37FA7D205927CB00E431E5 /* ViewController.m */,
+				BA37FA7F205927CB00E431E5 /* Main.storyboard */,
+				BA37FA82205927CB00E431E5 /* Assets.xcassets */,
+				BA37FA84205927CB00E431E5 /* LaunchScreen.storyboard */,
+				BA37FA87205927CB00E431E5 /* Info.plist */,
+				BA37FA88205927CB00E431E5 /* main.m */,
+			);
+			path = ARKitDemo;
+			sourceTree = "<group>";
+		};
+		BA37FA91205927CB00E431E5 /* ARKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA37FA92205927CB00E431E5 /* ARKitDemoTests.m */,
+				BA37FA94205927CB00E431E5 /* Info.plist */,
+			);
+			path = ARKitDemoTests;
+			sourceTree = "<group>";
+		};
+		BA37FA9C205927CB00E431E5 /* ARKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA37FA9D205927CB00E431E5 /* ARKitDemoUITests.m */,
+				BA37FA9F205927CB00E431E5 /* Info.plist */,
+			);
+			path = ARKitDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA37FA75205927CB00E431E5 /* ARKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA37FAA2205927CB00E431E5 /* Build configuration list for PBXNativeTarget "ARKitDemo" */;
+			buildPhases = (
+				BA37FA72205927CB00E431E5 /* Sources */,
+				BA37FA73205927CB00E431E5 /* Frameworks */,
+				BA37FA74205927CB00E431E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitDemo;
+			productName = ARKitDemo;
+			productReference = BA37FA76205927CB00E431E5 /* ARKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA37FA8D205927CB00E431E5 /* ARKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA37FAA5205927CB00E431E5 /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */;
+			buildPhases = (
+				BA37FA8A205927CB00E431E5 /* Sources */,
+				BA37FA8B205927CB00E431E5 /* Frameworks */,
+				BA37FA8C205927CB00E431E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA37FA90205927CB00E431E5 /* PBXTargetDependency */,
+			);
+			name = ARKitDemoTests;
+			productName = ARKitDemoTests;
+			productReference = BA37FA8E205927CB00E431E5 /* ARKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA37FA98205927CB00E431E5 /* ARKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA37FAA8205927CB00E431E5 /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */;
+			buildPhases = (
+				BA37FA95205927CB00E431E5 /* Sources */,
+				BA37FA96205927CB00E431E5 /* Frameworks */,
+				BA37FA97205927CB00E431E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA37FA9B205927CB00E431E5 /* PBXTargetDependency */,
+			);
+			name = ARKitDemoUITests;
+			productName = ARKitDemoUITests;
+			productReference = BA37FA99205927CB00E431E5 /* ARKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA37FA6E205927CB00E431E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CountryPickerView;
+				TargetAttributes = {
+					BA37FA75205927CB00E431E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BA37FA8D205927CB00E431E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA37FA75205927CB00E431E5;
+					};
+					BA37FA98205927CB00E431E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA37FA75205927CB00E431E5;
+					};
+				};
+			};
+			buildConfigurationList = BA37FA71205927CB00E431E5 /* Build configuration list for PBXProject "ARKitDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA37FA6D205927CB00E431E5;
+			productRefGroup = BA37FA77205927CB00E431E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA37FA75205927CB00E431E5 /* ARKitDemo */,
+				BA37FA8D205927CB00E431E5 /* ARKitDemoTests */,
+				BA37FA98205927CB00E431E5 /* ARKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA37FA74205927CB00E431E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37FAB62059283900E431E5 /* snowflake1.png in Resources */,
+				BA37FABB2059283900E431E5 /* spark.png in Resources */,
+				BA37FAB82059283900E431E5 /* productLine.scnassets in Resources */,
+				BA37FA86205927CB00E431E5 /* LaunchScreen.storyboard in Resources */,
+				BA37FA83205927CB00E431E5 /* Assets.xcassets in Resources */,
+				BA37FAB92059283900E431E5 /* Snow.scnp in Resources */,
+				BA37FA81205927CB00E431E5 /* Main.storyboard in Resources */,
+				BA37FABA2059283900E431E5 /* snowflow.png in Resources */,
+				BA37FAB72059283900E431E5 /* wolf.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37FA8C205927CB00E431E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37FA97205927CB00E431E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA37FA72205927CB00E431E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37FA7E205927CB00E431E5 /* ViewController.m in Sources */,
+				BA37FAAD2059280D00E431E5 /* ModelDisplayViewController.m in Sources */,
+				BA37FA89205927CB00E431E5 /* main.m in Sources */,
+				BA37FA7B205927CB00E431E5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37FA8A205927CB00E431E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37FA93205927CB00E431E5 /* ARKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37FA95205927CB00E431E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37FA9E205927CB00E431E5 /* ARKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA37FA90205927CB00E431E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA37FA75205927CB00E431E5 /* ARKitDemo */;
+			targetProxy = BA37FA8F205927CB00E431E5 /* PBXContainerItemProxy */;
+		};
+		BA37FA9B205927CB00E431E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA37FA75205927CB00E431E5 /* ARKitDemo */;
+			targetProxy = BA37FA9A205927CB00E431E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA37FA7F205927CB00E431E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA37FA80205927CB00E431E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA37FA84205927CB00E431E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA37FA85205927CB00E431E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA37FAA0205927CB00E431E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA37FAA1205927CB00E431E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA37FAA3205927CB00E431E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SDKDKNS7;
+				INFOPLIST_FILE = ARKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crystal.ARKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA37FAA4205927CB00E431E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SDKDKNS7;
+				INFOPLIST_FILE = ARKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crystal.ARKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA37FAA6205927CB00E431E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SDKDKNS7;
+				INFOPLIST_FILE = ARKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crystal.ARKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitDemo.app/ARKitDemo";
+			};
+			name = Debug;
+		};
+		BA37FAA7205927CB00E431E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SDKDKNS7;
+				INFOPLIST_FILE = ARKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crystal.ARKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitDemo.app/ARKitDemo";
+			};
+			name = Release;
+		};
+		BA37FAA9205927CB00E431E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SDKDKNS7;
+				INFOPLIST_FILE = ARKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crystal.ARKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitDemo;
+			};
+			name = Debug;
+		};
+		BA37FAAA205927CB00E431E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SDKDKNS7;
+				INFOPLIST_FILE = ARKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crystal.ARKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA37FA71205927CB00E431E5 /* Build configuration list for PBXProject "ARKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37FAA0205927CB00E431E5 /* Debug */,
+				BA37FAA1205927CB00E431E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA37FAA2205927CB00E431E5 /* Build configuration list for PBXNativeTarget "ARKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37FAA3205927CB00E431E5 /* Debug */,
+				BA37FAA4205927CB00E431E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA37FAA5205927CB00E431E5 /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37FAA6205927CB00E431E5 /* Debug */,
+				BA37FAA7205927CB00E431E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA37FAA8205927CB00E431E5 /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37FAA9205927CB00E431E5 /* Debug */,
+				BA37FAAA205927CB00E431E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA37FA6E205927CB00E431E5 /* Project object */;
+}
